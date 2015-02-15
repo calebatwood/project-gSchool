@@ -1,22 +1,75 @@
 body {
-  /* Location of the image */
   background-image: url("A7-welcome.jpg");
-
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-
-  /* Background image is fixed in the viewport so that it doesn't move when
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
-
-  /* Set a background color that will be displayed
-     while the background image is loading */
   background-color: #464646;
+}
+
+.btn.outline {
+    background: none;
+  /*  padding: 12px 22px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width:200px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.btn-in.outline {
+    border: 2px solid #c1b32a;
+    color: #c1b32a;
+}
+.btn-in.outline:hover, .btn-in.outline:focus, .btn-in.outline:active, .btn-in.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #c0c0c0;
+    border-color: #c0c0c0;
+}
+.btn-in.outline:active, .btn-in.outline.active {
+    border-color: green;
+    color: #007299;
+    box-shadow: none;
+}
+
+.btn-up.outline {
+    border: 2px solid #c1b32a;
+    color: #c1b32a;
+}
+.btn-up.outline:hover, .btn-up.outline:focus, .btn-up.outline:active, .btn-up.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #c0c0c0;
+    border-color: #c0c0c0;
+}
+.btn-up.outline:active, .btn-up.outline.active {
+    border-color: green;
+    color: #007299;
+    box-shadow: none;
+}
+
+.btn-guest.outline {
+    border: 2px solid #c1b32a;
+    color: #c1b32a;
+}
+.btn-guest.outline:hover, .btn-guest.outline:focus, .btn-guest.outline:active, .btn-guest.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #c0c0c0;
+    border-color: #c0c0c0;
+}
+.btn-guest.outline:active, .btn-guest.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.home-menu {
+  padding-top:11%;
+  padding-right: 5%;
+
+}
+
+
+ul li {
+  list-style-type: none;
+  float: right;
+  padding-right: 20px;
 }

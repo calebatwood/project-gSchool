@@ -1,1 +1,16 @@
 
+<!--<ul class="home-menu">
+  <li><button type="button" class="btn btn-guest btn-lg outline">Guest</button></li>
+  <li><button type="button" class="btn btn-up btn-lg outline">Sign Up</button></li>
+  <li><button type="button" class="btn btn-in btn-lg outline">Sign In</button></li>
+</ul>-->
+
+<ul class="home-menu">
+  <% if current_user %>
+    <li><%= link_to "Sign Out", signout_path, class: "btn btn-out btn-lg outline" %></li>
+  <% else %>
+    <li><%= link_to "Guest", root_url, class: "btn btn-guest btn-lrg outline" %></li>
+    <li><%= link_to "Sign Up", signup_path, class: "btn btn-up btn-lrg outline" %></li>
+    <li><%= link_to "Sign In", signin_path, class: "btn btn-in btn-lrg outline" %></li>
+  <% end %>
+</ul>
