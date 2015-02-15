@@ -6,7 +6,6 @@ body {
   background-size: cover;
   background-color: #464646;
 }
-
 .btn.outline {
     background: none;
   /*  padding: 12px 22px; */
@@ -18,7 +17,6 @@ body {
     font-size: 2.5em;
     text-align: left;
 }
-
 .btn-in.outline {
     border: 2px solid #c1b32a;
     color: #c1b32a;
@@ -28,11 +26,10 @@ body {
     border-color: #c0c0c0;
 }
 .btn-in.outline:active, .btn-in.outline.active {
-    border-color: green;
-    color: #007299;
+    border-color: #c0c0c0;
+    color: #c0c0c0;
     box-shadow: none;
 }
-
 .btn-up.outline {
     border: 2px solid #c1b32a;
     color: #c1b32a;
@@ -42,8 +39,8 @@ body {
     border-color: #c0c0c0;
 }
 .btn-up.outline:active, .btn-up.outline.active {
-    border-color: green;
-    color: #007299;
+    border-color: #c0c0c0;
+    color: #c0c0c0;
     box-shadow: none;
 }
 
@@ -56,18 +53,14 @@ body {
     border-color: #c0c0c0;
 }
 .btn-guest.outline:active, .btn-guest.outline.active {
-    border-color: #007299;
-    color: #007299;
+    border-color: #c0c0c0;
+    color: #c0c0c0;
     box-shadow: none;
 }
-
 .home-menu {
   padding-top:11%;
   padding-right: 5%;
-
 }
-
-
 ul li {
   list-style-type: none;
   float: right;
